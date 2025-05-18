@@ -1,0 +1,30 @@
+body { 
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 600px;
+  margin: 20px auto;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.185)),
+    url("../../assets/gradiente-de-noticias-de-ultima-hora_23-2151128788.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  background-color: white;
+}
+
+.news {
+  font-weight: normal;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  transition: 0.5s;
+  background-color: white;
+}
+
+.news:hover {
+  color: white;
+  background-color: #d42d2d;
+  scale: 1.1;
+}

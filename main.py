@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 
 def get_news():
-  url = "https://www.globo.com/"
+  url = "https://www.uol.com.br"
   response = requests.get(url)
 
   noticias = []

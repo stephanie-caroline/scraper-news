@@ -17,7 +17,7 @@ def get_news():
   return noticias
 
 def save_json(noticias):
-  with open("noticias.json", "w", encoding="utf-8") as arquivo:
+  with open("./data/noticias.json", "w", encoding="utf-8") as arquivo:
     json.dump(noticias, arquivo)
 
 noticias = get_news()

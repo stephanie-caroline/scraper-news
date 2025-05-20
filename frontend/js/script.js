@@ -5,10 +5,10 @@ async function loadNews() {
 
     const container = document.getElementById('noticias');
 
-    data.forEach((noticia) => {
+    data.forEach((news) => {
       const titulo = document.createElement('h2');
       titulo.classList.add('news');
-      titulo.textContent = noticia.titulo;
+      titulo.textContent = news.title;
 
       container.appendChild(titulo);
     });
